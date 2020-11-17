@@ -1,0 +1,111 @@
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Lato", sans-serif}
+
+.w3-bar,h1,button {
+  font-family: "Montserrat", sans-serif}
+
+.fa-anchor,.fa-coffee {
+  font-size:200px}
+  
+  #fila1{
+    width: 1300px;
+    height: 100px;
+    text-align:center;
+  }
+  .animado {
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  .box {
+    
+    /* Choose the animation */
+    animation-name: movingBox;
+  
+    /* The animation’s duration */
+    animation-duration: 8300ms;
+  
+    /* The number of times we want
+        the animation to run */
+    animation-iteration-count: infinite;
+  
+    /* Causes the animation to reverse
+        on every odd iteration */
+    animation-direction:alternate;
+  }
+  
+  @keyframes movingBox {
+    0% {
+      transform: translate(0, 0);
+      opacity: 0.4;
+    }
+  
+    25% {
+      opacity: 0.9;
+    }
+  
+    50% {
+      transform: translate(100px, 100px);
+      opacity: 0.2;
+    }
+  
+    100% {
+      transform: translate(30px, 30px);
+      opacity: 0.8;
+    }
+  }
+
+
+
+      /*cambio de color de body*/
+  .class1 {
+    background-color: rgb(243, 231, 231);
+    }
+    .class2 {
+    background-color: green;
+    }
+    
+    .class3 {
+    background-color:powderblue;
+    font-family: 'Courier New', Courier, monospace;
+    }
+   
+    #btn1{
+      background-color: rgb(243, 231, 231);
+    }
+    #btn2{
+      background-color: green;
+    }
+    #btn3{
+      background-color:powderblue;
+    }
+  .img{
+    width: 30px;
+    height: 30px;
+  }
+  .icono{
+    color: blue;
+  }
+ .img2{
+   width: 100px;
+   height: 100px;
+  
+ }
+ .w3-col s3 {
+  border: 2px solid gray;
+ }
+ 
+.modal{
+  width: 800px;
+  height: 400px;
+}
+
+
+
+
+
+
+ 
+
+
+
+
